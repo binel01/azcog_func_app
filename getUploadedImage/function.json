@@ -12,7 +12,6 @@
       "name": "doc",
       "databaseName": "AZCOG_DATABASE_NAME",
       "collectionName": "AZCOG_COLLECTION_NAME",
-      "createIfNotExists": "true",
       "connectionStringSetting": "AZCOG_DATABASE_CONNECTION_STRING" 
     }
   ]
