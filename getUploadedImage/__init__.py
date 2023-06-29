@@ -3,6 +3,9 @@ import logging
 import os
 
 import azure.functions as func
+from azure.cognitiveservices.vision.computervision import ComputerVisionClient
+from azure.cognitiveservices.vision.computervision.models import ImageDescription
+from msrest.authentication import CognitiveServicesCredentials
 
 
 # Clé de Azure Cognitive Services
