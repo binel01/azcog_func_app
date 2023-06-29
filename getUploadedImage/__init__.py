@@ -51,5 +51,5 @@ def main(event: func.EventGridEvent, doc:func.Out[func.Document]):
         "confidence": image_description.captions[0].confidence
     }
 
-    doc.set(func.Document.from_json(document))
+    doc.set(func.Document.from_dict(document))
     logging.info(f"Le document a bien été enregistré dans la base de donnée {document}")
