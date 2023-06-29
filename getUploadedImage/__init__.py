@@ -34,10 +34,10 @@ def main(event: func.EventGridEvent, doc:func.Out[func.Document]):
     vision_client = ComputerVisionClient(VISION_ENDPOINT, CognitiveServicesCredentials(VISION_SUBS_KEY))
     # Génération de la description
     image_description:ImageDescription = vision_client.describe_image(image_url)
-    if (len(description.captions) == 0):
+    if (len(image_description.captions) == 0):
         logging.info("Pas de description détectée")
     else:
-        for caption in description.captions:
+        for caption in image_description.captions:
             logging.info("Description: '{}' avec la probabilité: {}".format(caption.text, caption.confidence))
 
     """
@@ -47,7 +47,8 @@ def main(event: func.EventGridEvent, doc:func.Out[func.Document]):
     """
     document = {
         "image_url": image_url,
-        "image_description": image_description,
+        "description": image_description.captions[0].text,
+        "confidence": image_description.captions[0].confidence
     }
 
     doc.set(func.Document.from_json(document))
