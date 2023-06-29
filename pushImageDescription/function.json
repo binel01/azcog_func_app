@@ -6,16 +6,16 @@
       "name": "documents",
       "direction": "in",
       "leaseCollectionName": "leases",
-      "connectionStringSetting": "AZCOG_DATABASE_CONNECTION_STRING",
-      "databaseName": "AZCOG_DATABASE_NAME",
-      "collectionName": "AZCOG_COLLECTION_NAME",
+      "connectionStringSetting": "AccountEndpoint=https://azcogcosmosdb.documents.azure.com:443/;AccountKey=yOGvHhKT54MxaF2aubaHuFMrmZcyeupMesBEI1bDTfTUKpesowGNuUQG3S7mIHJNYHnYN7zoxziGACDbx313vg==;",
+      "databaseName": "imagesdb",
+      "collectionName": "images",
       "createLeaseCollectionIfNotExists": true
     },
     {
       "type": "signalR",
       "name": "signalRMessages",
       "hubName": "serverless",
-      "connectionStringSetting": "SIGNALR_CONNECTION_STRING",
+      "connectionStringSetting": "Endpoint=https://signalrbineli1.service.signalr.net;AccessKey=doD8iaQKVJGo8QnbgSA6grmtyIMwanc1Dx2vL5F68dI=;Version=1.0;",
       "direction": "out"
     }
   ]
