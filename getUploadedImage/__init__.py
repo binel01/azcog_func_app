@@ -17,7 +17,7 @@ def main(event: func.EventGridEvent, doc:func.Out[func.Document]):
     ================================================
     """
     logging.info("getUploadedImage: function triggered")
-    logging.info(json.dumps(event))
+    logging.info(f"{event.get_json()}")
     # Récupération de l'url de l'image uploadée dans Azure Blob Storage
     data = event.get_json()
     image_url = data["url"]
