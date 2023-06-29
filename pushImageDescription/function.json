@@ -1,0 +1,22 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "cosmosDBTrigger",
+      "name": "documents",
+      "direction": "in",
+      "leaseCollectionName": "leases",
+      "connectionStringSetting": "AZCOG_DATABASE_CONNECTION_STRING",
+      "databaseName": "AZCOG_DATABASE_NAME",
+      "collectionName": "AZCOG_COLLECTION_NAME",
+      "createLeaseCollectionIfNotExists": true
+    },
+    {
+      "type": "signalR",
+      "name": "signalRMessages",
+      "hubName": "serverless",
+      "connectionStringSetting": "SIGNALR_CONNECTION_STRING",
+      "direction": "out"
+    }
+  ]
+}
