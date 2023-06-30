@@ -10,9 +10,9 @@
       "type": "cosmosDB",
       "direction": "out",
       "name": "doc",
-      "databaseName": "imagesdb",
-      "collectionName": "images",
-      "connectionStringSetting": "AccountEndpoint=https://azcogcosmosdb.documents.azure.com:443/;AccountKey=yOGvHhKT54MxaF2aubaHuFMrmZcyeupMesBEI1bDTfTUKpesowGNuUQG3S7mIHJNYHnYN7zoxziGACDbx313vg==;" 
+      "databaseName": "AZCOG_DATABASE_NAME",
+      "collectionName": "AZCOG_COLLECTION_NAME",
+      "connectionStringSetting": "SIGNALR_CONNECTION_STRING" 
     }
   ]
 }
