@@ -7,8 +7,8 @@
       "direction": "in",
       "leaseCollectionName": "leases",
       "connectionStringSetting": "AZCOG_DATABASE_CONNECTION_STRING",
-      "databaseName": "AZCOG_DATABASE_NAME",
-      "collectionName": "AZCOG_COLLECTION_NAME",
+      "databaseName": "imagesdb",
+      "collectionName": "images",
       "CreateLeaseCollectionIfNotExists": true
     },
     {

@@ -10,8 +10,8 @@
       "type": "cosmosDB",
       "direction": "out",
       "name": "doc",
-      "databaseName": "AZCOG_DATABASE_NAME",
-      "collectionName": "AZCOG_COLLECTION_NAME",
+      "databaseName": "imagesdb",
+      "collectionName": "images",
       "connectionStringSetting": "AZCOG_DATABASE_CONNECTION_STRING",
       "createIfNotExists": false
     }
