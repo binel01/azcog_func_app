@@ -20,7 +20,7 @@
         "type": "SignalRConnectionInfo",
         "name": "connectionInfo",
         "hubName": "serverless",
-        "connectionStringSetting": "Endpoint=https://signalrbineli1.service.signalr.net;AccessKey=doD8iaQKVJGo8QnbgSA6grmtyIMwanc1Dx2vL5F68dI=;Version=1.0;",
+        "connectionStringSetting": "SIGNALR_CONNECTION_STRING",
         "direction": "in"
     }
   ]

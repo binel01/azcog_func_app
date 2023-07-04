@@ -12,7 +12,7 @@
       "name": "doc",
       "databaseName": "AZCOG_DATABASE_NAME",
       "collectionName": "AZCOG_COLLECTION_NAME",
-      "connectionStringSetting": "SIGNALR_CONNECTION_STRING",
+      "connectionStringSetting": "AZCOG_DATABASE_CONNECTION_STRING",
       "createIfNotExists": false
     }
   ]

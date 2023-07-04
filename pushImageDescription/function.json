@@ -9,7 +9,7 @@
       "connectionStringSetting": "AZCOG_DATABASE_CONNECTION_STRING",
       "databaseName": "AZCOG_DATABASE_NAME",
       "collectionName": "AZCOG_COLLECTION_NAME",
-      "createLeaseCollectionIfNotExists": true
+      "CreateLeaseCollectionIfNotExists": true
     },
     {
       "type": "signalR",
